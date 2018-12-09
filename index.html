@@ -32,7 +32,7 @@
 					<a href="#HOME" class="brand">
 						<h1>WUZ 屋子</h1>
 					</a>
-					<ul class="nav">
+					<ul class="nav" id="popup-nav">
 						<li class="nav-item">
 							<a href="" class="nav-link">優惠活動</a>
 							<ul class="dropdown">
@@ -140,8 +140,17 @@
 						</li>
 						<li class="nav-item">
 							<a href="#!" class="nav-link">聖誕特輯</a>
-						</li>			
+						</li>	
+                        <a href="#!" class="close-btn">
+                            <span></span>
+                            <span></span>
+                        </a>		
 					</ul>
+                    <a href="#popup-nav" class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
 				</div>
 			</div>
 		</header>
@@ -893,7 +902,7 @@
     itemSelector: '.masonry-col',
     });
     </script>
- <!--    <script>
+    <script>
         $(function(){
         $('.navbar').after('<div id="nav-item" class="container"></div>');
         $('#nav-item .scroll>ul>li>ul').hide();
@@ -910,6 +919,6 @@
         $('#nnav-item .scroll').css('height',total+80);
         }
          });
-    </script> -->
+    </script>
 
 </html>
