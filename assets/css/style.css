@@ -161,9 +161,9 @@ img{
 	color: #0B121F;
 }
 .btn.btn-primary-footer:hover{
-	background-color: #000080;
-	border: 1px solid #fefefe;
-	color: #fefefe;
+	background-color: #fefefe;
+	border: 1px solid #C0C0C0;
+	color: #0B121F;
 }
 /* 次要按鈕 */
 .btn.btn-secondary{
